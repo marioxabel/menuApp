@@ -1,21 +1,21 @@
-# co72e499baf5f48346e5975cf
+# 🍔 Menu app
 
-Quick start:
+## Description
 
-```
-$ npm install
-$ npm start
-````
+The goal of this project was to build a menu app using HTML, CSS & JavaScript as the final project for the module  5 of Scrimba Front-End development path.
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## Features
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+- Add, remove and delete menu items
+- Pop up for fetching card info
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Technologies
 
-Happy Coding!
+- javaScript
+- HTML
+- CSS
+- GIT
+
+## Author
+
+Mario Abel Garcia. Financial Engineer.
