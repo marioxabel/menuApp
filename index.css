@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 600px;
+    font-family: 'Smythe', cursive;
+} 
+
+/* TYPO */
+h1, h3 {
+    color: whitesmoke;
+    font-weight: 400;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 39px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+    color: #8b8b8b;
+    margin-top: 8px;
+}
+
+.price {
+     font-size: 20px;
+     color: black; 
+     margin-top: 8px;  
+}
+
+.emoji {
+    font-size: 78px;
+    margin: 0px;
+}
+
+.modal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+label{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+input {
+    font-size: 20px;
+}
+
+/* STYLING */
+header {
+    display: flex;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    left: 46px;
+    top: 40px;
+}
+
+.section {
+    padding: 50px;
+}
+
+.menuHTML {
+    display: flex;
+    border-bottom: 1px solid #D2D2D2;
+    align-items: center;
+    position: relative;
+}
+
+.itemInfo {
+    margin-left: 30px;
+}
+
+.buttons {
+    position: absolute;
+    right: 50;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    color: #3c3c3c;
+    border: 1px solid #3c3c3c;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.disabled {
+    pointer-events: none; /* Disable an element interaction, so it will not respond any event */
+    color: #ccc; /* Gray out the text color to signify being disabled */
+    border-color: #ccc;
+}
+
+.orderTitle {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 45px;
+}
+
+.orderHTML {
+    /*position: relative;*/
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.resume {
+    /*position: absolute;*/
+    right: 50px;
+}
+
+.orderResume {
+    padding-left: 70px;
+    padding-bottom: 31px;
+}
+
+.remove {
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.remove:hover {
+    cursor:pointer;
+}
+
+.itemInfoOrder {
+    display: flex;
+    align-items: center;
+}
+
+.orderInfoPrice {
+    display: flex;
+    align-items: center;
+}
+
+.perItem {
+    margin-left: 15px;
+}
+
+.total {
+    margin-top: 0px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonDiv{
+   position: relative;
+   margin-bottom: 100px;
+}
+
+.orderButton {
+    position: absolute;
+    left: 50;
+    width: 500px;
+    background-color: #16DB99;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+
+.disabledOrder {
+    background-color: #ccc;
+}
+
+.disabledOrder:hover {
+    pointer-events: none;
+}
+
+.modal {
+    visibility: hidden;
+    width: 524px;
+    height: 542px;
+    border-radius: 4px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px black solid;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5)
+}
+
+label {
+    margin-top: 46px;
+    margin-bottom: 46px;    
+}
+
+input{
+    width: 100%;
+    height: 70px;
+    margin-top: 25px;
+    padding-left: 40px;
+}
+
+form {
+    text-align: center;
+    padding: 45px 25px 25px 25px;
+}
+
+.top {
+    margin-top: 45px;
+}
+
+.payButton {
+    margin-left: 0;
+    margin-top: 45px;
+    width: 100%;
+    background-color: #16DB99;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+
+.orderSection  {
+    visibility: visible;
+}
+
+.thanks h1 {
+    color: #065F46;
+}
+.thanks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECFDF5;
+    width: 504px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 50px;
+}

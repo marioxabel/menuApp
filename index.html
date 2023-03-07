@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Smythe&display=swap" rel="stylesheet">
+        <!-- CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+        <link rel="stylesheet" href="index.css">
+        <title>Jimmy's Diner</title>
+    </head>
+    <body>
+        <div class="opacity">
+            <header>
+                <div class="title">
+                    <h1>Jimmy's Diner</h1>
+                    <h3>The best burgers and pizzas in town</h3>
+                </div>
+                <img src="/images/ferks-guare-KEZdWfYD-ow-unsplash 1.png" alt="Burger">
+            </header>
+            <main>
+                <section id="menu-section"></section>
+                <div class="orderSection" id="order-section">
+                    <h2 class="orderTitle">Your Order</h2>
+                    <div class="orderResume section">
+                            <section id="order-info"></section>
+                    </div>
+                    <div id="total"></div>
+                    <div class="buttonDiv">
+                        <button id="order-button" class="orderButton">Add items to your order</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+            <section class="modal" id="modal">
+                <form>
+                    <label>Enter card details</label>
+                
+                    <input type="text" class="top" id="name" required placeholder="Enter your name">
+                    <input type="number" required placeholder="Enter your card number">
+                    <input type="number" required placeholder="Enter CVV">
+                    <button class="payButton" id="payButton">Pay</button>
+                </form>
+            </section>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
